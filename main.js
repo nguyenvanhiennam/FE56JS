@@ -260,3 +260,7 @@ document.getElementById("btnTinhTienTip").addEventListener("click",function(){
     var txtThongBaoTienTip = document.getElementById("txtThongBaoTienTip").style.display = "block";
     document.getElementById("txtThongBaoTienTip").innerHTML = total + "$ mỗi người" ;
 })
+
+function themNguoiDung(){
+    console.log("nguyenvanhiennam themNguoiDung");
+}
